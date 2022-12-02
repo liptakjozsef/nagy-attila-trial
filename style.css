@@ -1,0 +1,56 @@
+/*.profile-card {
+    background-color: hsla(60, 100%, 50%, .4);
+    
+  }
+.head {
+    background-color: hsla(120, 100%, 50%, .4);
+}
+.content {
+    background-color: hsla(120, 100%, 50%, .4);
+}
+.profile-image {
+    background-color: purple; 
+}
+.name-headline {
+    background-color: hsla(300, 100%, 50%, .4);
+  }
+  
+  .about {
+    background-color: hsla(300, 100%, 50%, .4);
+  }
+  
+  .links {
+    background-color: hsla(300, 100%, 50%, .4);
+  }
+   Pozicionálás */
+
+.profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+  }
+  body {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background: url('assets/Japán.jpg') no-repeat center center fixed;  
+  }
+  body {
+    height: 100vh;
+  }
+  .head, .links {
+    text-align: center;
+  }
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
